@@ -1,31 +1,203 @@
-(module "DIONM5025X231N" (layer F.Cu)
-  (descr "FM")
-  (tags "Diode")
-  (attr smd)
-  (fp_text reference D** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "DIONM5025X231N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -3.425 -1.645) (end 3.425 -1.645) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.425 -1.645) (end 3.425 1.645) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 3.425 1.645) (end -3.425 1.645) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -3.425 1.645) (end -3.425 -1.645) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.502 -1.242) (end 2.502 -1.242) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.502 -1.242) (end 2.502 1.242) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.502 1.242) (end -2.502 1.242) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.502 1.242) (end -2.502 -1.242) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.502 -1.242) (end -2.502 -1.242) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.502 1.242) (end 2.502 1.242) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.9 0 90) (size 1.7 2.55) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.9 0 90) (size 1.7 2.55) (layers F.Cu F.Paste F.Mask))
-  (model "G:\\Andere Computer\\Mein PC\\Fynn\\Projekte\\Credit_card_Midi_piano\\Libary\\SamacSys_Parts.3dshapes\\FM4004-W.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "DIONM5025X231N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FM")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3b6984db-64bb-4a13-952c-224582558abf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DIONM5025X231N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c7de7b49-8f1c-4572-95b5-bc7713f9192b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76bcf4fa-1c56-45cc-93cc-759c889b4cd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abec16f6-830a-44b1-9348-c8068f985d0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ddfdd03-578e-4cbb-b872-1f19daa78f35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.502 1.242)
+		(end 2.502 1.242)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c16b0d6e-4143-4399-a7ee-9d149545b586")
+	)
+	(fp_line
+		(start 2.502 -1.242)
+		(end -2.502 -1.242)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97d69b59-7afd-4175-bca6-f7af63a77cd4")
+	)
+	(fp_line
+		(start -3.425 -1.645)
+		(end 3.425 -1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "acc72f77-c8b1-4c32-a870-80bc6ebffb96")
+	)
+	(fp_line
+		(start -3.425 1.645)
+		(end -3.425 -1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e03faa21-9fa1-4987-bff3-805a4cb00dc4")
+	)
+	(fp_line
+		(start 3.425 -1.645)
+		(end 3.425 1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69550f43-2ead-4279-bc66-07e53afd1eae")
+	)
+	(fp_line
+		(start 3.425 1.645)
+		(end -3.425 1.645)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09350a54-ca46-44c2-931e-f794ceb3afc9")
+	)
+	(fp_line
+		(start -2.502 -1.242)
+		(end 2.502 -1.242)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "261ca678-81d8-4048-8d7e-ba577a470bf5")
+	)
+	(fp_line
+		(start -2.502 1.242)
+		(end -2.502 -1.242)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa49fe30-1565-4d87-be28-a83ed68bbfc7")
+	)
+	(fp_line
+		(start 2.502 -1.242)
+		(end 2.502 1.242)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f118093-ecb4-4538-8eaa-84af2e231ee7")
+	)
+	(fp_line
+		(start 2.502 1.242)
+		(end -2.502 1.242)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d95b55f-3894-4312-b00c-1e54f4ab8178")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "49bdea21-5232-41bc-90b3-286a11ede30c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.9 0 90)
+		(size 1.7 2.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dcf315cb-e4ff-4adc-80e1-d8852545b13f")
+	)
+	(pad "2" smd rect
+		(at 1.9 0 90)
+		(size 1.7 2.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b80fac9f-0928-4257-a407-bb98966993bd")
+	)
+	(model "${KIPRJMOD}/Libary/SamacSys_Parts.3dshapes/FM4004-W.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

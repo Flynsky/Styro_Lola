@@ -5832,17 +5832,6 @@
 		)
 		(uuid "15bcf50d-57f8-4c3e-bca4-2f6cc8dc8688")
 	)
-	(label "H4"
-		(at 175.26 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1de674af-7be4-4f3c-b926-241a19bbc1df")
-	)
 	(label "XOUT"
 		(at 190.5 143.51 270)
 		(fields_autoplaced yes)
@@ -5908,17 +5897,6 @@
 			(justify right bottom)
 		)
 		(uuid "349d295d-eceb-49da-9d3f-b243943d95b5")
-	)
-	(label "H5"
-		(at 177.8 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a2d0b08-c802-43f9-bc20-7bb01d1acf94")
 	)
 	(label "RUN"
 		(at 203.2 143.51 270)
@@ -5997,17 +5975,6 @@
 		)
 		(uuid "8f94d862-dd29-47be-8754-e90f58517f69")
 	)
-	(label "H7"
-		(at 182.88 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9d4c2867-be99-48b0-95f5-f9db03942255")
-	)
 	(label "QSPI_SD1"
 		(at 180.34 64.77 90)
 		(fields_autoplaced yes)
@@ -6085,17 +6052,6 @@
 		)
 		(uuid "cd90a5ab-16b6-4a2f-a432-087241f916a0")
 	)
-	(label "H6"
-		(at 180.34 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9ee3cd4-b35e-449f-b97b-2818b7934a45")
-	)
 	(label "USB_D-"
 		(at 133.35 182.88 180)
 		(fields_autoplaced yes)
@@ -6140,30 +6096,6 @@
 			(justify left)
 		)
 		(uuid "036dc465-712c-4aac-a005-3506eb5aac57")
-	)
-	(hierarchical_label "cs_sd"
-		(shape bidirectional)
-		(at 205.74 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0573f466-bd98-4e73-858b-ee05b29c9d2a")
-	)
-	(hierarchical_label "cs_lan"
-		(shape bidirectional)
-		(at 208.28 146.05 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d8d3405-0e08-4428-94a7-b88941f6767b")
 	)
 	(hierarchical_label "GIO24"
 		(shape output)

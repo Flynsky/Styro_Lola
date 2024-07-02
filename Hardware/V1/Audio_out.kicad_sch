@@ -1710,7 +1710,7 @@
 		(uuid "22b47fc6-8fb2-421f-a609-73161e632529")
 	)
 	(junction
-		(at 48.26 29.21)
+		(at 48.26 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24a56a27-7f05-430b-99de-3c338fd35dc3")
@@ -1782,6 +1782,12 @@
 		(uuid "84d40a2f-0b73-4055-a581-217730f7bf9d")
 	)
 	(junction
+		(at 48.26 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "875b0672-a45f-4297-885e-aeada32e5a5f")
+	)
+	(junction
 		(at 58.42 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1804,12 +1810,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7667c0d-c6f6-450c-9586-c82befc0bf21")
-	)
-	(junction
-		(at 48.26 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daac1ba2-1eb5-49b0-94fa-e249cf8a9060")
 	)
 	(wire
 		(pts
@@ -1843,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 19.05) (xy 48.26 21.59)
+			(xy 48.26 19.05) (xy 48.26 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 29.21) (xy 48.26 29.21)
+			(xy 45.72 24.13) (xy 48.26 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1923,16 +1923,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 39.37) (xy 48.26 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "265820c6-6b9c-4665-9760-33dd83d08d8c")
-	)
-	(wire
-		(pts
 			(xy 49.53 90.17) (xy 58.42 90.17)
 		)
 		(stroke
@@ -1963,23 +1953,13 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 45.72 39.37)
+			(xy 45.72 31.75) (xy 45.72 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "325a27b3-456e-48d3-a47b-39d7fcd45ae1")
-	)
-	(wire
-		(pts
-			(xy 48.26 26.67) (xy 48.26 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33f0d193-4ef5-45b3-945d-064d06177aab")
 	)
 	(wire
 		(pts
@@ -2183,7 +2163,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 29.21) (xy 48.26 31.75)
+			(xy 48.26 24.13) (xy 48.26 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 48.26 39.37)
+			(xy 45.72 34.29) (xy 48.26 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2530,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "c85a3a73-1e41-4474-9a5b-2dab5165e158")
+	)
+	(wire
+		(pts
+			(xy 48.26 39.37) (xy 48.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca844242-0e82-4e09-957a-2b493b897aa1")
 	)
 	(wire
 		(pts
@@ -2643,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 31.75) (xy 45.72 29.21)
+			(xy 45.72 26.67) (xy 45.72 24.13)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2653,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 36.83) (xy 48.26 39.37)
+			(xy 48.26 31.75) (xy 48.26 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3154,7 +3144,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 50.8 34.29 0)
+		(at 50.8 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3163,7 +3153,7 @@
 		(fields_autoplaced yes)
 		(uuid "16903570-b89d-4727-9683-de28d8656bd6")
 		(property "Reference" "BZ1"
-			(at 54.61 33.0199 0)
+			(at 54.61 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,7 +3162,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 54.61 35.5599 0)
+			(at 54.61 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3171,7 @@
 			)
 		)
 		(property "Footprint" "CMT052575SMTTR"
-			(at 50.165 31.75 90)
+			(at 50.165 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3180,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/202edec26f194914f30bb21e54dbec55.pdf"
-			(at 50.165 31.75 90)
+			(at 50.165 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +3189,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 50.8 34.29 0)
+			(at 50.8 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4829,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 45.72 34.29 90)
+		(at 45.72 29.21 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4848,7 +4838,7 @@
 		(dnp no)
 		(uuid "c0d2e9f9-2d6a-4bf4-b289-4c86f919dc4e")
 		(property "Reference" "D1"
-			(at 43.18 33.0199 90)
+			(at 43.18 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4847,7 @@
 			)
 		)
 		(property "Value" "FM4004-W"
-			(at 43.18 35.5599 90)
+			(at 43.18 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4856,7 @@
 			)
 		)
 		(property "Footprint" "DIONM5025X231N"
-			(at 45.72 34.29 90)
+			(at 45.72 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 34.29 90)
+			(at 45.72 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4874,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 45.72 34.29 0)
+			(at 45.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4883,7 @@
 			)
 		)
 		(property "Height" "2.31"
-			(at 443.18 45.72 0)
+			(at 443.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4893,7 @@
 			)
 		)
 		(property "Mouser Part Number" "583-FM4004"
-			(at 543.18 45.72 0)
+			(at 543.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4903,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rectron/FM4004-W?qs=Iw9Ubr57Px3IHNH1bE4l9w%3D%3D"
-			(at 643.18 45.72 0)
+			(at 643.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4913,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Rectron"
-			(at 743.18 45.72 0)
+			(at 743.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4923,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FM4004-W"
-			(at 843.18 45.72 0)
+			(at 843.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4933,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 45.72 34.29 0)
+			(at 45.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4942,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 34.29 0)
+			(at 45.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5490,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 24.13 180)
+		(at 48.26 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5509,7 +5499,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3b830f9-6219-4cae-8186-8dda479349e9")
 		(property "Reference" "R8"
-			(at 50.8 22.8599 0)
+			(at 50.8 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5508,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 50.8 25.3999 0)
+			(at 50.8 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5517,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 24.13 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5526,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 24.13 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +5535,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 48.26 24.13 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

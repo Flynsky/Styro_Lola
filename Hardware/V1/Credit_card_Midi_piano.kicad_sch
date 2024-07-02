@@ -5,6 +5,128 @@
 	(uuid "fd98d8e1-15f7-4e74-a843-9bd80f80983b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:CAT10-103J4LF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -374,10 +496,26 @@
 		(uuid "84dbe6fd-c856-42e5-bd4c-a100459ffb54")
 	)
 	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b32f43e-6db4-4553-a1a0-f46d7e22389b")
+	)
+	(junction
 		(at 80.01 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1fafc31-f922-4f3e-b7dc-a392d148f666")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b746aab-af5d-4b0c-a267-3c573cf77419")
 	)
 	(wire
 		(pts
@@ -388,6 +526,16 @@
 			(type default)
 		)
 		(uuid "1e75b9cf-3f9b-4bf7-866a-b03b984ad5fa")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dd20b8-1e29-47c9-8159-39dae66ce787")
 	)
 	(wire
 		(pts
@@ -411,6 +559,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3745852b-3a14-42cb-ab4a-6588323c6d37")
+	)
+	(wire
+		(pts
+			(xy 176.53 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d5eafb-2097-4c2f-8219-3ce4ab44adbc")
+	)
+	(wire
+		(pts
 			(xy 78.74 125.73) (xy 80.01 125.73)
 		)
 		(stroke
@@ -428,6 +596,26 @@
 			(type default)
 		)
 		(uuid "6f4a1a7c-3319-4d50-b534-b71d6952c530")
+	)
+	(wire
+		(pts
+			(xy 156.21 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8261ff4e-3122-4eb1-881d-d9311f9092f0")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef86f92-d668-459a-a7d1-09258b1267b6")
 	)
 	(wire
 		(pts
@@ -461,6 +649,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 86.36) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf4077c-e7a4-44b7-bae6-1e1158c79b18")
+	)
+	(wire
+		(pts
 			(xy 77.47 125.73) (xy 78.74 125.73)
 		)
 		(stroke
@@ -468,6 +666,75 @@
 			(type default)
 		)
 		(uuid "f7d962ee-b11c-4c0b-8833-c14f88d80461")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75fae61b-9556-4734-b047-8f42e68b4a51")
+		(property "Reference" "J3"
+			(at 172.7199 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 175.2599 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c999cbdd-e3dd-462b-b95d-7f7f9029096e")
+		)
+		(pin "1"
+			(uuid "f00e6ff5-87fe-44df-a8b8-ba681fae9585")
+		)
+		(instances
+			(project "Credit_card_Midi_piano"
+				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SymbolsBalloonv4:GND")
@@ -529,6 +796,75 @@
 			(project "Credit_card_Midi_piano"
 				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95cc2b42-277a-4ad4-b89c-4de9611e71cb")
+		(property "Reference" "J4"
+			(at 175.2601 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 172.7201 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23b56c8a-3329-4cb9-acc1-c692054af2b0")
+		)
+		(pin "1"
+			(uuid "98f949ab-0ad6-490c-b39c-61550fefc97a")
+		)
+		(instances
+			(project "Credit_card_Midi_piano"
+				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -704,6 +1040,116 @@
 				(justify left top)
 			)
 		)
+		(pin "VBUS" output
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe11c291-7c29-442d-8131-f27bf50593ad")
+		)
+		(pin "3V3" input
+			(at 156.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "731a79e6-6d5d-4489-bb05-14e68842a894")
+		)
+		(pin "GPIO1" bidirectional
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cce90102-4793-49bd-a18a-c8dab8db3fb6")
+		)
+		(pin "A1" input
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2ae7362c-9c92-465b-8731-b9c3f6dbb382")
+		)
+		(pin "A2" input
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b07f402-99c1-4cf7-a115-129945a6dd56")
+		)
+		(pin "A3" input
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1138ac02-f2df-4225-8407-646fbc142d8a")
+		)
+		(pin "GIO24" output
+			(at 142.24 113.665 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d48de3f-3173-44b1-8647-b3e17eb6f544")
+		)
+		(pin "GIO26" output
+			(at 137.16 113.665 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19a8096f-8698-4776-87e9-e41b8110eedf")
+		)
+		(pin "GIO21" output
+			(at 133.35 113.665 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fcab3ca-aa8a-44e5-a177-828496aa52f2")
+		)
+		(pin "GIO25" output
+			(at 128.27 113.665 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eb7699cc-3f10-4633-a446-af59db54fc0f")
+		)
+		(pin "GPIO0" bidirectional
+			(at 123.19 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f7bee28b-679d-4ebe-8757-a66866d06968")
+		)
 		(instances
 			(project "Credit_card_Midi_piano"
 				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
@@ -713,8 +1159,8 @@
 		)
 	)
 	(sheet
-		(at 203.835 85.725)
-		(size 36.83 22.86)
+		(at 196.85 86.995)
+		(size 17.145 20.955)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -725,7 +1171,7 @@
 		)
 		(uuid "cedfb009-3ec0-4c83-bf46-fc378384fe1d")
 		(property "Sheetname" "Audio_out"
-			(at 203.835 85.0134 0)
+			(at 196.85 86.2834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +1180,7 @@
 			)
 		)
 		(property "Sheetfile" "Audio_out.kicad_sch"
-			(at 203.835 109.1696 0)
+			(at 196.85 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,13 +1189,63 @@
 			)
 		)
 		(property "Feld2" ""
-			(at 203.835 85.725 0)
+			(at 196.85 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "ADC_Micro" input
+			(at 196.85 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14fb3c98-3b9e-4fcc-ba93-98f5c2908f8a")
+		)
+		(pin "VCC_Audio" input
+			(at 196.85 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "73f5aedd-eb8a-4d72-a38d-b566a36b9b90")
+		)
+		(pin "Audio_right" input
+			(at 196.85 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e9a3257b-1b03-4b85-8f4a-966e1285e443")
+		)
+		(pin "Buzzer" input
+			(at 196.85 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b530205a-765d-40cc-82d0-1af7ed614bde")
+		)
+		(pin "Audio_left" input
+			(at 196.85 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61c37aed-3932-4d40-8b9f-10e45e329a55")
 		)
 		(instances
 			(project "Credit_card_Midi_piano"

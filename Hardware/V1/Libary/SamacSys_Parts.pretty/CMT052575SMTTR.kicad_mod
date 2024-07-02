@@ -1,34 +1,229 @@
-(module "CMT052575SMTTR" (layer F.Cu)
-  (descr "CMT-0525-75-SMT-TR-1")
-  (tags "Loudspeaker or Buzzer")
-  (attr smd)
-  (fp_text reference LS** (at 0.000 -0.025) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0.025) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CMT052575SMTTR" (at 0.000 -0.025) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer F.Fab) (width 0.2))
-  (fp_line (start 2.5 -2.5) (end 2.5 2.5) (layer F.Fab) (width 0.2))
-  (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer F.Fab) (width 0.2))
-  (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer F.Fab) (width 0.2))
-  (fp_line (start -4 -3.55) (end 4 -3.55) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 4 -3.55) (end 4 3.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 4 3.5) (end -4 3.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -4 3.5) (end -4 -3.55) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -1.2 -2.5) (end 2.5 -2.5) (layer F.SilkS) (width 0.1))
-  (fp_line (start 2.5 -2.5) (end 2.5 0.6) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.5 -1) (end -2.5 0.6) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.5 2.5) (end 2.5 2.5) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -2.250 1.6 90) (size 1.300 1.500) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.250 1.6 90) (size 1.300 1.500) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -2.250 -1.9 90) (size 1.300 1.500) (layers F.Cu F.Paste F.Mask))
-  (model "G:\\Andere Computer\\Mein PC\\Fynn\\Projekte\\Credit_card_Midi_piano\\Libary\\SamacSys_Parts.3dshapes\\CMT-0525-75-SMT-TR.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CMT052575SMTTR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CMT-0525-75-SMT-TR-1")
+	(tags "Loudspeaker or Buzzer")
+	(property "Reference" "LS**"
+		(at 0 -0.025 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef723d60-5d81-4349-aa43-1376e6b88de4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CMT052575SMTTR"
+		(at 0 -0.025 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f8ac76f1-2a18-49a3-b222-7abe65ecfb75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8c15384-fcc5-48b8-a4ef-639241197a82")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f21be48-58d8-451e-8bf9-9dd56d47cc28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b785e7e-aa62-4836-86b3-b88c63a8b0d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1)
+		(end -2.5 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4542e439-750d-4c3f-8c9a-7703c521d45e")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b92158d-cb15-471a-abae-df6ed7b7aedd")
+	)
+	(fp_line
+		(start -1.2 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4550d77f-c0d4-4e3d-892b-ffb35dca9cf2")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4d49d5a-9ee6-4309-9318-2219bc6280c4")
+	)
+	(fp_line
+		(start -4 -3.55)
+		(end 4 -3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c1ce7ee-fb45-4018-b244-cbcfbbd466bc")
+	)
+	(fp_line
+		(start -4 3.5)
+		(end -4 -3.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1749f98-2533-4c62-9381-beb8cc77021d")
+	)
+	(fp_line
+		(start 4 -3.55)
+		(end 4 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29b1ea68-959b-4b6b-9d26-e8945c1e2d43")
+	)
+	(fp_line
+		(start 4 3.5)
+		(end -4 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96088998-1edc-40bd-ba24-de9a64e4ffe3")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "797f1da2-62d1-451b-a5d3-c7537ff80de5")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08564924-ae5e-4dc6-a216-5d616f35e123")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84c5c82d-48c8-4d22-b0eb-f61b0b35a24d")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5970bd12-869d-42b6-835b-94c6de58e672")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.025 0)
+		(layer "F.Fab")
+		(uuid "1f601e32-8a98-4243-b074-3fe43fe9f8cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 1.6 90)
+		(size 1.3 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dfa622ef-4f80-44b8-b81e-67dda9eb7fa9")
+	)
+	(pad "2" smd rect
+		(at 2.25 1.6 90)
+		(size 1.3 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "74b4fa27-d4d3-44cd-95b7-55cbfbcb311b")
+	)
+	(pad "3" smd rect
+		(at -2.25 -1.9 90)
+		(size 1.3 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c893e3f2-ba63-46af-9ef3-5461346acf88")
+	)
+	(model "${KIPRJMOD}/Libary/SamacSys_Parts.3dshapes/CMT-0525-75-SMT-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
