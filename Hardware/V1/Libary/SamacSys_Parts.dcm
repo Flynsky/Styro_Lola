@@ -264,4 +264,52 @@ K
 F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528-High-Performance-500mA-LDO-in-Thin-and-Extra-Thin-DFN-Packages-DS20005982B.pdf
 $ENDCMP
 #
+$CMP PCM5101APWR
+D 2VRMS DirectPath&#153;, 106dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface
+K
+F http://www.ti.com/lit/gpn/pcm5101a
+$ENDCMP
+#
+$CMP TLV70033DSER
+D LDO Voltage Regulators 200mA Low IQ LDO Reg
+K
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlv700
+$ENDCMP
+#
+$CMP NC7WZ16P6X
+D TinyLogic UHS Dual Buffer CMOS SC70-6
+K
+F http://www.onsemi.com/pub/Collateral/NC7WZ16-D.PDF
+$ENDCMP
+#
+$CMP SJ2-35853B-SMT-TR
+D 3.50mm (0.141", 1/8", Mini Plug) - Headphone Phone Jack Stereo (3 Conductor, TRS) Connector Solder
+K
+F https://www.cuidevices.com/product/resource/sj2-3585x-smt.pdf
+$ENDCMP
+#
+$CMP LMK107BJ225KA-T
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2uF 10V X5R +/-10% 0603 Gen Purp
+K
+F https://componentsearchengine.com/Datasheets/1/LMK107BJ225KA-T.pdf
+$ENDCMP
+#
+$CMP JMK107ABJ106MA-T
+D Taiyo Yuden 0603 (1608M) 10uF MLCC 6.3V dc +/-20% SMD JMK107ABJ106MA-T
+K
+F https://componentsearchengine.com/Datasheets/1/JMK107ABJ106MA-T.pdf
+$ENDCMP
+#
+$CMP MCP73831T-2ACI_OT
+D Li-Ion Charge Controller 4.2V SOT23-5
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP SLW-913535-2A-SMT
+D Slide Switches 9.1 x 3.5 x 3.5 mm, 2 mm Raised Slide Actuator, Vertical, Surface Mount
+K
+F https://www.cuidevices.com/product/resource/pdf/slw-913535-2a-smt.pdf
+$ENDCMP
+#
 #End Doc Library
