@@ -1686,6 +1686,12 @@
 		)
 	)
 	(junction
+		(at 48.26 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "005ee826-d8de-4464-856c-4b3fe7276686")
+	)
+	(junction
 		(at 60.96 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1710,7 +1716,7 @@
 		(uuid "22b47fc6-8fb2-421f-a609-73161e632529")
 	)
 	(junction
-		(at 48.26 24.13)
+		(at 48.26 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24a56a27-7f05-430b-99de-3c338fd35dc3")
@@ -1782,12 +1788,6 @@
 		(uuid "84d40a2f-0b73-4055-a581-217730f7bf9d")
 	)
 	(junction
-		(at 48.26 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "875b0672-a45f-4297-885e-aeada32e5a5f")
-	)
-	(junction
 		(at 58.42 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1843,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 19.05) (xy 48.26 24.13)
+			(xy 48.26 19.05) (xy 48.26 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 24.13) (xy 48.26 24.13)
+			(xy 45.72 22.86) (xy 48.26 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1953,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 31.75) (xy 45.72 34.29)
+			(xy 45.72 30.48) (xy 45.72 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2163,7 +2163,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 24.13) (xy 48.26 26.67)
+			(xy 48.26 22.86) (xy 48.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 34.29) (xy 48.26 34.29)
+			(xy 45.72 33.02) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 26.67) (xy 45.72 24.13)
+			(xy 45.72 25.4) (xy 45.72 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2653,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 48.26 34.29)
+			(xy 48.26 33.02) (xy 48.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c0c3e2-35de-44d7-84e1-a1394c52b4d9")
+	)
+	(wire
+		(pts
+			(xy 48.26 30.48) (xy 48.26 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3154,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 50.8 29.21 0)
+		(at 50.8 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3153,7 +3163,7 @@
 		(fields_autoplaced yes)
 		(uuid "16903570-b89d-4727-9683-de28d8656bd6")
 		(property "Reference" "BZ1"
-			(at 54.61 27.9399 0)
+			(at 54.61 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3172,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 54.61 30.4799 0)
+			(at 54.61 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,8 +3180,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CMT052575SMTTR"
-			(at 50.165 26.67 90)
+		(property "Footprint" "SamacSys_Parts:CMT052575SMTTR"
+			(at 50.165 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3190,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/202edec26f194914f30bb21e54dbec55.pdf"
-			(at 50.165 26.67 90)
+			(at 50.165 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3199,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 50.8 29.21 0)
+			(at 50.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SJ23514ASMTTR"
+		(property "Footprint" "SamacSys_Parts:SJ23514ASMTTR"
 			(at 134.62 192.71 0)
 			(effects
 				(font
@@ -4829,7 +4839,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 45.72 29.21 90)
+		(at 45.72 27.94 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4838,7 +4848,7 @@
 		(dnp no)
 		(uuid "c0d2e9f9-2d6a-4bf4-b289-4c86f919dc4e")
 		(property "Reference" "D1"
-			(at 43.18 27.9399 90)
+			(at 43.18 26.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4857,7 @@
 			)
 		)
 		(property "Value" "FM4004-W"
-			(at 43.18 30.4799 90)
+			(at 43.18 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,8 +4865,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DIONM5025X231N"
-			(at 45.72 29.21 90)
+		(property "Footprint" "SamacSys_Parts:DIONM5025X231N"
+			(at 45.72 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 29.21 90)
+			(at 45.72 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4884,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 45.72 29.21 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4893,7 @@
 			)
 		)
 		(property "Height" "2.31"
-			(at 443.18 40.64 0)
+			(at 443.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4903,7 @@
 			)
 		)
 		(property "Mouser Part Number" "583-FM4004"
-			(at 543.18 40.64 0)
+			(at 543.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +4913,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Rectron/FM4004-W?qs=Iw9Ubr57Px3IHNH1bE4l9w%3D%3D"
-			(at 643.18 40.64 0)
+			(at 643.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4923,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Rectron"
-			(at 743.18 40.64 0)
+			(at 743.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4933,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FM4004-W"
-			(at 843.18 40.64 0)
+			(at 843.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +4943,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 45.72 29.21 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +4952,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 45.72 29.21 0)
+			(at 45.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P230X110-3N"
+		(property "Footprint" "SamacSys_Parts:SOT95P230X110-3N"
 			(at 52.07 149.53 0)
 			(effects
 				(font

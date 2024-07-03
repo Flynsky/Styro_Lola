@@ -127,49 +127,30 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:CAT10-103J4LF"
-			(exclude_from_sim no)
-			(in_bom yes)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "RN"
-				(at 16.51 7.62 0)
+			(property "Reference" "H"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Value" "CAT10-103J4LF"
-				(at 16.51 5.08 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "CAT10J4LF"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/pdfs/CAT10.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "10k 0804 Thick Film Surface Mount Fixed Resistor +/-5% 0.0625W CAT10-103J4LF"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -178,71 +159,59 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.55"
-				(at 16.51 -394.92 0)
+			(property "Datasheet" "~"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "652-CAT10-103J4LF"
-				(at 16.51 -494.92 0)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CAT10-103J4LF?qs=2W%2FSxbYhP0bqukjaie6S3A%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Bourns"
-				(at 16.51 -694.92 0)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "CAT10-103J4LF"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "CAT10-103J4LF_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 1.27)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
@@ -251,132 +220,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -484,28 +327,10 @@
 		)
 	)
 	(junction
-		(at 77.47 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75bbc242-7819-4989-b079-f3ce68f03607")
-	)
-	(junction
-		(at 78.74 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84dbe6fd-c856-42e5-bd4c-a100459ffb54")
-	)
-	(junction
 		(at 182.88 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b32f43e-6db4-4553-a1a0-f46d7e22389b")
-	)
-	(junction
-		(at 80.01 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1fafc31-f922-4f3e-b7dc-a392d148f666")
 	)
 	(wire
 		(pts
@@ -516,46 +341,6 @@
 			(type default)
 		)
 		(uuid "1b746aab-af5d-4b0c-a267-3c573cf77419")
-	)
-	(wire
-		(pts
-			(xy 74.93 125.73) (xy 77.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e75b9cf-3f9b-4bf7-866a-b03b984ad5fa")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 196.85 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26dd20b8-1e29-47c9-8159-39dae66ce787")
-	)
-	(wire
-		(pts
-			(xy 80.01 124.46) (xy 80.01 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28772dd9-bbdc-4652-be48-243d48a81dfe")
-	)
-	(wire
-		(pts
-			(xy 74.93 124.46) (xy 74.93 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3571c1c5-bf44-47f6-a941-c35c2e92fe29")
 	)
 	(wire
 		(pts
@@ -579,23 +364,33 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 125.73) (xy 80.01 125.73)
+			(xy 243.84 63.5) (xy 243.84 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "580d9649-76bd-473f-8f7f-8918eebb7bc7")
+		(uuid "540667a4-795a-4ec7-9367-5e97a728b772")
 	)
 	(wire
 		(pts
-			(xy 78.74 125.73) (xy 78.74 127)
+			(xy 182.88 88.9) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f4a1a7c-3319-4d50-b534-b71d6952c530")
+		(uuid "5b870f51-54d9-4b62-b5ca-3b94e4f6cda9")
+	)
+	(wire
+		(pts
+			(xy 251.46 73.66) (xy 251.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7e3a9c-f37b-43bd-8216-ec0fe6e58cfb")
 	)
 	(wire
 		(pts
@@ -619,36 +414,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 82.55 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aabe0532-8348-40d6-8f74-710f0520b914")
-	)
-	(wire
-		(pts
-			(xy 82.55 125.73) (xy 82.55 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e25c96-fc78-4962-a264-db5bb5cc9ede")
-	)
-	(wire
-		(pts
-			(xy 77.47 124.46) (xy 77.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da5b01d8-4f70-42e4-aa40-08691f13d5e4")
-	)
-	(wire
-		(pts
 			(xy 182.88 86.36) (xy 182.88 88.9)
 		)
 		(stroke
@@ -657,15 +422,181 @@
 		)
 		(uuid "dcf4077c-e7a4-44b7-bae6-1e1158c79b18")
 	)
-	(wire
-		(pts
-			(xy 77.47 125.73) (xy 78.74 125.73)
+	(label "3V3"
+		(at 243.84 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "12e7761d-66b5-47b0-87a3-a8c30ef0e571")
+	)
+	(label "3V3"
+		(at 162.56 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(uuid "f7d962ee-b11c-4c0b-8833-c14f88d80461")
+		(uuid "3d031697-845b-494f-a09c-e9766682c015")
+	)
+	(label "VCC_AUDIO"
+		(at 182.88 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f7d9b3b-4bc9-4b90-a0e6-8bb2ed6072ea")
+	)
+	(label "VUSB"
+		(at 162.56 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a91b2fe-9ad5-4f7e-902f-d1d33696f31f")
+	)
+	(symbol
+		(lib_id "SymbolsBalloonv4:GND")
+		(at 251.46 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1998f08a-695b-4a1f-a2fa-f699d6b81cf2")
+		(property "Reference" "#PWR01"
+			(at 251.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1e77d2d-ce23-4d09-8824-cef08d3c4785")
+		)
+		(instances
+			(project "Credit_card_Midi_piano"
+				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 251.46 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63c34970-8b24-43cb-8d2c-dcecfd17633b")
+		(property "Reference" "H1"
+			(at 254 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Ground_Pen"
+			(at 254 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51288f60-fe06-486f-bcc1-9bb66e7ef814")
+		)
+		(instances
+			(project ""
+				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -731,71 +662,6 @@
 			(project "Credit_card_Midi_piano"
 				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SymbolsBalloonv4:GND")
-		(at 78.74 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a97a7c9-23c7-45e1-9455-c73c77478909")
-		(property "Reference" "#PWR01"
-			(at 78.74 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 78.867 131.3942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e19c6879-d92d-4aea-b991-30fd71354fac")
-		)
-		(instances
-			(project "Credit_card_Midi_piano"
-				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -871,55 +737,35 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:CAT10-103J4LF")
-		(at 74.93 124.46 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 243.84 67.31 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c01d90eb-0a42-4533-8b90-68a6368811ed")
-		(property "Reference" "RN1"
-			(at 86.36 113.0299 90)
+		(uuid "ea2f8fbf-c849-41b4-a15b-981957cc79a0")
+		(property "Reference" "H2"
+			(at 241.3 69.8501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "CAT10-103J4LF"
-			(at 86.36 115.5699 90)
+		(property "Value" "VCC_PEN"
+			(at 241.3 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "CAT10J4LF"
-			(at 169.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/pdfs/CAT10.pdf"
-			(at 269.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k 0804 Thick Film Surface Mount Fixed Resistor +/-5% 0.0625W CAT10-103J4LF"
-			(at 74.93 124.46 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 243.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,84 +773,31 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 469.85 107.95 0)
+		(property "Datasheet" "~"
+			(at 243.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "652-CAT10-103J4LF"
-			(at 569.85 107.95 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 243.84 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CAT10-103J4LF?qs=2W%2FSxbYhP0bqukjaie6S3A%3D%3D"
-			(at 669.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bourns"
-			(at 769.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CAT10-103J4LF"
-			(at 869.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "19106dc3-0e76-4d4c-a923-2a9e25211b4b")
-		)
-		(pin "6"
-			(uuid "529acadb-7abb-4e4b-af79-c965e5e33794")
 		)
 		(pin "1"
-			(uuid "c88ffb43-14d0-4525-9124-dceb567d020f")
-		)
-		(pin "2"
-			(uuid "9b0e4435-6923-42a6-8d4b-b10c86791733")
-		)
-		(pin "5"
-			(uuid "419e3a5f-95e8-41b1-81d1-8cb25bead51f")
-		)
-		(pin "4"
-			(uuid "3f2c8f3b-16b1-414a-b3dc-ec23d3a3702f")
-		)
-		(pin "7"
-			(uuid "45f81bc0-f95c-454d-901e-2427f0993f24")
-		)
-		(pin "8"
-			(uuid "68298731-2bf6-4798-80fe-2731a8d19a3d")
+			(uuid "04200765-3a02-4d03-b302-92813dd9d30a")
 		)
 		(instances
-			(project ""
+			(project "Credit_card_Midi_piano"
 				(path "/fd98d8e1-15f7-4e74-a843-9bd80f80983b"
-					(reference "RN1")
+					(reference "H2")
 					(unit 1)
 				)
 			)

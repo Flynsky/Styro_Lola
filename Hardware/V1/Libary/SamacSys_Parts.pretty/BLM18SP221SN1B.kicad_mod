@@ -1,30 +1,193 @@
-(module "BLM18SP221SN1B" (layer F.Cu)
-  (descr "BLM18_3 L=1.6 W=0.8 T=0.8")
-  (tags "Ferrite Bead")
-  (attr smd)
-  (fp_text reference FB** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "BLM18SP221SN1B" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.475 -0.75) (end 1.475 -0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 -0.75) (end 1.475 0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 0.75) (end -1.475 0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.475 0.75) (end -1.475 -0.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.3) (end 0 0.3) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.675 -0 0) (size 0.650 0.700) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.675 -0 0) (size 0.650 0.700) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Balloon\\SpiCy-BEXUS\\micorcontroller\\Hardware\\MotherboardV4.1\\Libary\\SamacSys_Parts.3dshapes\\BLM18SP102SZ1D.stp"
-    (at (xyz 0.031496063461454 0 0.015748031730727))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "BLM18SP221SN1B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BLM18_3 L=1.6 W=0.8 T=0.8")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2123e22d-d49a-4834-8caf-925238dd425d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BLM18SP221SN1B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a78a296-9900-4ab1-920a-06837f3681cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0deb82cc-e69b-420e-9374-602c5b59421b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2a1dcf2-7aaa-421c-8799-2a3e2042be55")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60362f67-e41a-458b-8cf0-a24f6cd2669c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.3)
+		(end 0 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f25b2b8f-e14d-4b61-84f9-af86c84c2587")
+	)
+	(fp_line
+		(start -1.475 -0.75)
+		(end 1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd4a912a-6459-43fa-b1b3-86a0014f77ca")
+	)
+	(fp_line
+		(start -1.475 0.75)
+		(end -1.475 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62cd4bb6-72f7-40a2-8559-9a536d13bffc")
+	)
+	(fp_line
+		(start 1.475 -0.75)
+		(end 1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e708da1-ab68-4727-b956-c748e02338aa")
+	)
+	(fp_line
+		(start 1.475 0.75)
+		(end -1.475 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae622187-8a4d-42c6-ac76-ca0df5a6e383")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4524c621-1d2d-44d0-a3fe-91a608d55128")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc4b5bf6-1229-47f6-86e2-2e95f5f87e59")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7601463-3d0d-48b4-9dde-7a013061049c")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "403a2ecb-cb3a-4c7c-80a3-65e9fef09009")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "55e076cd-300a-4479-b0ed-f84bdc056470")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1c1498b9-677d-4877-b378-526fb7e7004c")
+	)
+	(pad "2" smd rect
+		(at 0.675 0)
+		(size 0.65 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e26ddd00-6274-43aa-b58d-28207e40e500")
+	)
+	(model "${KIPRJMOD}/Libary/SamacSys_Parts.3dshapes/BLM18SP102SZ1D.stp"
+		(offset
+			(xyz 0.7999999999 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
