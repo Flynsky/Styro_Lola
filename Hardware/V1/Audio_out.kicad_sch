@@ -2825,6 +2825,28 @@
 		)
 		(uuid "316dc8b5-6624-4439-85f5-6bf7a548b8fc")
 	)
+	(label "op+"
+		(at 58.42 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4cca4700-85b8-4f5b-ba68-b84e125be820")
+	)
+	(label "op-"
+		(at 60.96 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62fb3e2e-344a-4428-be2b-7dc531719798")
+	)
 	(label "SLEEVE"
 		(at 102.87 97.79 180)
 		(fields_autoplaced yes)
@@ -2857,6 +2879,17 @@
 			(justify left bottom)
 		)
 		(uuid "ca22e348-feb8-4fcd-8c5d-7ef30096fc8a")
+	)
+	(label "opout"
+		(at 81.28 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f455d64c-e28c-42c0-8d93-cae52d1b4dcc")
 	)
 	(hierarchical_label "Buzzer"
 		(shape input)
