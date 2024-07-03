@@ -252,4 +252,16 @@ K
 F https://componentsearchengine.com/Datasheets/1/FM4004-W.pdf
 $ENDCMP
 #
+$CMP TS20-42-25-WT-160-SMT-TR
+D Tactile Switches 4.2 x 3.2 mm, 2.5 mm Actuator Height, 160 gf, White, Surface Mount, TR, SPST, Tactile Switch
+K
+F https://www.cuidevices.com/product/resource/ts20.pdf
+$ENDCMP
+#
+$CMP MIC5528-3.3YMT-TR
+D Microchip Technology MIC5528-3.3YMT-TR, LDO Voltage Regulator Controller, 500mA, 3.3 V, +/-3% 6-Pin, TDFN
+K
+F https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528-High-Performance-500mA-LDO-in-Thin-and-Extra-Thin-DFN-Packages-DS20005982B.pdf
+$ENDCMP
+#
 #End Doc Library
