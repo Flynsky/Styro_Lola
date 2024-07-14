@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../groundstation"
+		},
+		{
+			"path": "D:/"
+		},
+		{
+			"path": "../../../groundstation/converter bin packet to csv"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.tcc": "cpp",
+			"exception": "cpp",
+			"memory_resource": "cpp",
+			"iosfwd": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"streambuf": "cpp",
+			"ios": "cpp",
+			"cmath": "cpp",
+			"xlocale": "cpp",
+			"functional": "cpp"
+		}
+	}
+}
