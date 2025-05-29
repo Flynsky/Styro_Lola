@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "fd98d8e1-15f7-4e74-a843-9bd80f80983b")
 	(paper "A4")
 	(lib_symbols
@@ -155,12 +155,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SymbolsBalloonv4:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -251,7 +256,28 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text_box "Known Issues\n- Battery Controller shuts down when there's no battery,\nso operation with only USB is impossible. \nBC can be shunted to bypass that\n- Audio Jack not enough on the edge, aux needs to be modified\n- USBC could be more on the edge as well\n- LDOs not Bucks\n- Layout could be refined\n- uSD covers Logo"
+		(exclude_from_sim no)
+		(at 199.39 119.38 0)
+		(size 68.58 19.05)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "26a00883-0839-49f7-b23b-4e1297316491")
 	)
 	(junction
 		(at 172.72 88.8851)
@@ -437,7 +463,6 @@
 	)
 	(label "3V3"
 		(at 203.2 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -448,7 +473,6 @@
 	)
 	(label "3V3"
 		(at 107.95 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -459,7 +483,6 @@
 	)
 	(label "V_SYS"
 		(at 172.72 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -656,6 +679,10 @@
 	(sheet
 		(at 123.19 86.36)
 		(size 33.02 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -685,103 +712,103 @@
 		)
 		(pin "VSYS" output
 			(at 156.21 88.9 0)
+			(uuid "fe11c291-7c29-442d-8131-f27bf50593ad")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fe11c291-7c29-442d-8131-f27bf50593ad")
 		)
 		(pin "3V3" input
 			(at 123.19 88.9 180)
+			(uuid "731a79e6-6d5d-4489-bb05-14e68842a894")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "731a79e6-6d5d-4489-bb05-14e68842a894")
 		)
 		(pin "SPI_MISO" input
 			(at 123.19 96.52 180)
+			(uuid "5461593f-a59e-4612-a9d2-9684a78686cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5461593f-a59e-4612-a9d2-9684a78686cc")
 		)
 		(pin "SPI_SCK" input
 			(at 123.19 91.44 180)
+			(uuid "93777b2e-7816-4fa8-97b0-6cfe364f0268")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "93777b2e-7816-4fa8-97b0-6cfe364f0268")
 		)
 		(pin "SPI_CS" input
 			(at 123.19 99.06 180)
+			(uuid "11501faa-33e0-4243-94f4-97f045378b48")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "11501faa-33e0-4243-94f4-97f045378b48")
 		)
 		(pin "SPI_MOSI" input
 			(at 123.19 93.98 180)
+			(uuid "636cdc41-46e4-4caf-bafc-5e995c3b2bb8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "636cdc41-46e4-4caf-bafc-5e995c3b2bb8")
 		)
 		(pin "GPIO29" input
 			(at 156.21 97.79 0)
+			(uuid "394e3f8b-1151-4c76-87fd-fe30be23db26")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "394e3f8b-1151-4c76-87fd-fe30be23db26")
 		)
 		(pin "GPIO28" input
 			(at 156.21 95.25 0)
+			(uuid "ceaf7510-0198-4795-9dd8-f43566743b74")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ceaf7510-0198-4795-9dd8-f43566743b74")
 		)
 		(pin "GPIO23" input
 			(at 156.21 92.71 0)
+			(uuid "5f9654ae-a966-4ddb-88e8-f96495e1acaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5f9654ae-a966-4ddb-88e8-f96495e1acaa")
 		)
 		(pin "GPIO22" input
 			(at 156.21 100.33 0)
+			(uuid "a1595f70-9650-4263-a9d4-8e5a0835394d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a1595f70-9650-4263-a9d4-8e5a0835394d")
 		)
 		(instances
 			(project "Credit_card_Midi_piano"
@@ -794,6 +821,10 @@
 	(sheet
 		(at 67.945 85.09)
 		(size 13.335 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -832,53 +863,53 @@
 		)
 		(pin "3V3" input
 			(at 81.28 88.9 0)
+			(uuid "778bedbe-a4cf-41e5-80fe-d3f8382f41e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "778bedbe-a4cf-41e5-80fe-d3f8382f41e4")
 		)
 		(pin "sck_sd" bidirectional
 			(at 81.28 91.44 0)
+			(uuid "81890ba3-5fa4-44d3-a560-eeea8b538a94")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "81890ba3-5fa4-44d3-a560-eeea8b538a94")
 		)
 		(pin "mosi_sd" bidirectional
 			(at 81.28 93.98 0)
+			(uuid "036e02cc-6ad3-4846-a186-bc8833c326a8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "036e02cc-6ad3-4846-a186-bc8833c326a8")
 		)
 		(pin "miso_sd" bidirectional
 			(at 81.28 96.52 0)
+			(uuid "1cf7ea2f-75c2-4e10-b896-232d9667a85a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1cf7ea2f-75c2-4e10-b896-232d9667a85a")
 		)
 		(pin "cs_sd" bidirectional
 			(at 81.28 99.06 0)
+			(uuid "cf30026a-0532-451f-baab-e0ad6b80ffb5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cf30026a-0532-451f-baab-e0ad6b80ffb5")
 		)
 		(instances
 			(project "Credit_card_Midi_piano"
@@ -891,6 +922,10 @@
 	(sheet
 		(at 196.85 86.36)
 		(size 17.145 17.145)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -929,63 +964,63 @@
 		)
 		(pin "Buzzer" input
 			(at 196.85 100.33 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
 			(uuid "b530205a-765d-40cc-82d0-1af7ed614bde")
-		)
-		(pin "Audio_0" input
-			(at 196.85 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ae13cbbd-3a22-4ce7-962a-a154fde34e05")
-		)
-		(pin "Audio_1" input
-			(at 196.85 95.25 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "bf595c21-baee-4787-bb47-ac59cf6c48d0")
 		)
 		(pin "3V3_D" input
 			(at 210.82 86.36 90)
+			(uuid "e8a9591c-8975-4c0e-9764-24952f76939c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e8a9591c-8975-4c0e-9764-24952f76939c")
-		)
-		(pin "Audio_2" input
-			(at 196.85 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "67cbd262-a917-46cf-b234-913703b0e04c")
 		)
 		(pin "VCC_Audio" input
 			(at 196.85 88.9 180)
+			(uuid "a8f6cdf9-9f6a-462b-9786-21d84c14177e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a8f6cdf9-9f6a-462b-9786-21d84c14177e")
+		)
+		(pin "Audio_BCK" input
+			(at 196.85 97.79 180)
+			(uuid "2038a127-0b18-4f02-aee1-1d83914dfdfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Audio_DIN" input
+			(at 196.85 95.25 180)
+			(uuid "887cf4eb-a640-4f8c-895b-3c1cea65617c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Audio_LRC" input
+			(at 196.85 92.71 180)
+			(uuid "a4116483-bb44-4728-abbb-ff5cf0677c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
 			(project "Credit_card_Midi_piano"
@@ -1000,4 +1035,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

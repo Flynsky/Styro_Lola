@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "ba318b70-a105-4142-9c3a-f56cc9a00205")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,6 +143,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:MEM2085-00-115-00-A"
 			(pin_names
@@ -256,24 +261,6 @@
 			)
 			(symbol "MEM2085-00-115-00-A_0_0"
 				(pin passive line
-					(at 35.56 -20.32 180)
-					(length 5.08)
-					(name "CD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "GND_1"
@@ -284,24 +271,6 @@
 						)
 					)
 					(number "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "GND_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -454,6 +423,24 @@
 					)
 				)
 				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "GND_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 35.56 0 180)
 					(length 5.08)
 					(name "DAT2"
@@ -597,6 +584,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 35.56 -20.32 180)
+					(length 5.08)
+					(name "CD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "MEM2085-00-115-00-A_0_1"
 				(polyline
@@ -612,9 +617,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SymbolsBalloonv4:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -687,7 +695,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -699,7 +707,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -748,12 +756,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SymbolsBalloonv4:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -844,9 +857,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SymbolsBalloonv4:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -965,7 +981,20 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "SD"
+		(exclude_from_sim no)
+		(at 114.554 77.724 0)
+		(effects
+			(font
+				(size 5 5)
+				(color 255 252 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "b67b72a4-5041-44cd-8cee-2c4d70a6036e")
 	)
 	(junction
 		(at 139.7 78.74)
@@ -1623,22 +1652,9 @@
 		)
 		(uuid "fadf9142-555a-4b7f-8cf6-16d2f0adea25")
 	)
-	(text "SD"
-		(exclude_from_sim no)
-		(at 114.554 77.724 0)
-		(effects
-			(font
-				(size 5 5)
-				(color 255 252 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "b67b72a4-5041-44cd-8cee-2c4d70a6036e")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 165.1 74.93 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1650,7 +1666,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 142.24 74.93 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1662,7 +1677,6 @@
 	(hierarchical_label "miso_sd"
 		(shape bidirectional)
 		(at 154.94 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,7 +1688,6 @@
 	(hierarchical_label "mosi_sd"
 		(shape bidirectional)
 		(at 154.94 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1686,7 +1699,6 @@
 	(hierarchical_label "cs_sd"
 		(shape bidirectional)
 		(at 154.94 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,7 +1710,6 @@
 	(hierarchical_label "sck_sd"
 		(shape bidirectional)
 		(at 154.94 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1721,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 128.27 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
